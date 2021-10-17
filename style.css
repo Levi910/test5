@@ -1,0 +1,91 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style:none;
+}
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+.container {
+  width:1000px;
+  margin:0 auto;
+}
+.header-logo img {
+  width:165px;
+  margin:60px 0 15px 5px;
+  vertical-align:top;
+}
+.mainvisual img {
+  width:100%;
+  height:385px;
+  object-fit:cover;
+  margin:0 5px;
+}
+#index {
+  background-color:white;
+}
+.contents {
+  width:600px;
+  margin:100px 200px;
+  font-size:12px;
+  
+}
+.index-list {
+  margin-left:20px;
+}
+.index-list li {
+  line-height:40px;
+  font-size:14px;
+}
+.detail-contents img {
+  width:520px;
+  height:520px;
+  object-fit:cover;
+  margin:10px 0 20px 0;
+}
+.detail-list {
+  width:520px;
+}
+.detail-list h2 {
+  margin-bottom:40px;
+}
+.detail-list dl {
+  display:table;
+  width:100%;
+  font-size:14px;
+}
+.detail-list dt {
+  display:table-cell;
+  vertical-align:middle;
+  line-height:5px;
+}
+.detail-list dd {
+  display:table-cell;
+  vertical-align:middle;
+  padding-left:100px;
+}
+.book dd{
+  padding-left:114px;
+}
+.issue {
+  margin-bottom:30px;
+}
+.detail-list p {
+  width:100%;
+  font-size:14px;
+  margin:0 0 20px 0;
+}
+.detail-list a {
+  color:black;
+  margin-bottom:100px;
+}
+footer p {
+  font-size:10px;
+  margin-left:200px;
+  text-align:left;
+}
